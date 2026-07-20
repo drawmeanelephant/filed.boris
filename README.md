@@ -6,6 +6,23 @@ This repository contains the complete clean, parented document collection of 566
 
 ---
 
+## ⚡ Quick Start: One-Command Local Preview
+
+To build the site and launch a local web server for review in one step:
+
+```bash
+./preview.sh
+```
+
+Then open `http://localhost:8000` in your browser.
+
+*(Optional)* You can pass a custom port or theme as arguments:
+```bash
+./preview.sh 8080 google-material
+```
+
+---
+
 ## 📂 Repository Structure
 
 ```text
