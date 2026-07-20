@@ -1,0 +1,11 @@
+# Compiled static site distribution folders
+dist/
+out/
+outputs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log

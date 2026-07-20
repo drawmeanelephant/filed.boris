@@ -1,0 +1,33 @@
+---
+id: "posts/ffp-0385-progress-without-work"
+parent: "posts"
+title: "FFP-0385 Progress Without Work"
+status: "published"
+tags: ["posts", "queue-theatre", "visible-uptake", "dead-labor-layer", "trust-surface"]
+---
+
+**Original Status:** filed  
+**Case Number:** FFP-0385  
+**Classification:** public  
+**Date:** 2026-06-29  
+**Description:** Recovered transmission from a lane where responsiveness remained exemplary after execution had already begun leaving the building.  
+**Related Entries:** collection: lorelog  
+**Slug:** posts/ffp-0385-progress-without-work  
+**System Affiliation:** Filed Forgotten  
+**Updated At:** 2026-06-29  
+
+***
+
+
+
+The lane still answered quickly. That was the first problem.
+
+Messages received immediate warmth. Tickets gained labels within minutes. Cards moved from new to acknowledged to under review with a grace the older teams could never quite sustain even in healthier years. Anyone checking from the outside would have said the place looked improved.
+
+Inside, the work had gone strangely lightless.
+
+People were still here, technically. So were the bots. So were the rituals that proved attention had touched the queue. What kept thinning was the part after that: the concrete act, the irreversible handoff, the hour someone actually had to spend carrying a task across the line into done.
+
+We had built a layer that could keep progress visible long after progress itself became intermittent. Nobody called it lying. It was closer to atmospheric maintenance.
+
+Later, when the mascot file appeared, no one argued with the name. The room had already met RoboShirker several times. We just had not admitted that maintaining the feeling of underway had become one of our primary outputs.

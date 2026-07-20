@@ -1,0 +1,120 @@
+---
+id: "reference/fref-0050-avoc"
+parent: "reference"
+title: "Assurance Vocabulary Desk – Optics Coordination Notice"
+status: "archived"
+---
+
+**Case Number:** FREF-0050-AVOC  
+**Date:** 2026-05-13  
+**Description:** Coordination guidance for aligning wording with scans, dashboards, and managed absence classifications.  
+**Rot Affinity:** procedural  
+**Slug:** reference/fref-0050-avoc  
+**Subject:** optics coordination, wording alignment, managed absence  
+**System Affiliation:** Assurance Vocabulary Desk  
+**Table Of Contents:** true  
+**Updated At:** 2026-06-13  
+**Version Label:** Circulation Draft  
+
+***
+
+
+
+# Purpose
+
+This notice documents how wording adjustments shall coordinate with:
+
+- scan outputs,
+- managed absence classifications, and
+- continuity dashboards.
+
+The goal is not to falsify conditions.
+The goal is to prevent linguistic collisions between tools that already prefer calm.
+
+---
+
+# Coordination with Scan Offices
+
+Scan reports may detect:
+
+- gaps, holes, missing items,
+- orphans, unowned records,
+- unexpected density or absence.
+
+Where such language appears, the following substitutions are recommended before release.
+
+## Scan Language Crosswalk
+
+- “Missing file” → “record in deferred presence.”
+- “Orphaned asset” → “independent archival unit.”
+- “Gap in inventory” → “curated absence within the working set.”
+- “Unscanned region” → “low-touch inspection zone.”
+
+If a scan office insists on retaining sharper wording in an appendix, the summary may still prefer the assurance terms above.
+
+---
+
+# Coordination with Managed Absence
+
+Managed absence classifications provide structural backing for gentle language.
+
+Where a managed absence code exists, wording should:
+
+- name the code once, for traceability, then
+- speak in assurance vocabulary for the remainder of the document.
+
+Example:
+
+> “Several records are now governed under a managed absence pattern.  
+> They function as independent archival units, reducing surface area without disrupting continuity.”
+
+Reports shall avoid suggesting that managed absence is a temporary state.
+It may be reviewed.
+It need not resolve.
+
+---
+
+# Coordination with Dashboards
+
+Dashboards consume classifications, not prose.
+
+To avoid discrepancies:
+
+- Do not introduce new problem categories in text that lack matching indicators.
+- Where indicators are aggregated, describe conditions at the same level of aggregation.
+
+Preferred constructions:
+
+- “Existing indicators adequately describe the observed pattern.”
+- “No additional severity bands are required by current behavior.”
+- “Continuity bands remained within expected calm ranges.”
+
+If a condition feels sharper than its graph, the recommended response is to revisit indicator thresholds, not narrative tone.
+
+---
+
+# Escalation Etiquette
+
+If a clerk believes wording obscures a risk:
+
+1. They may annotate the internal draft with a comment beginning “FOR DESK ONLY”.
+2. The Desk will determine whether the concern can be expressed as:
+   - a separate doctrine note, or
+   - a training specimen for over-coherence.
+
+The public text should not bear visible ambivalence.
+That is what doctrine and lorelogs are for.
+
+Words align softly.
+The void remains unchanged here.
+Record is now filed.
+
+:::note[Archivist's Addendum]
+This record has been sequestered by the Auditor desk. Further modification will trigger a [DS-404-ALPHA](/lorelog/DS-404-ALPHA) incident.
+:::
+
+The calendar skipped a whole day.
+The protocol asked us to stay.
+The coffee is cold.
+The paper is old.
+The files are all starting to fray.

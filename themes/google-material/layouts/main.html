@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" data-theme="google-material" data-layout="main">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="{{asset-url assets/material.css}}">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="container">
+    <header class="site-header" role="banner">
+      <div class="header-inner">
+        <p class="site-title"><a href="index.html">Boris Material</a></p>
+        {{breadcrumb}}
+      </div>
+    </header>
+    <div class="layout-wrapper">
+      <aside class="site-sidebar" aria-label="Sidebar">
+        <div class="sidebar-module">
+          <h3 class="sidebar-title">Browse</h3>
+          {{nav}}
+        </div>
+      </aside>
+      <main id="main-content" class="site-main" tabindex="-1">
+        {{metadata}}
+        {{toc}}
+        <article class="entry">
+          <div class="entry-content prose">
+            {{content}}
+          </div>
+        </article>
+        {{children}}
+      </main>
+    </div>
+    <footer class="site-footer theme-footer" role="contentinfo">
+      {{footer}}
+    </footer>
+  </div>
+</body>
+</html>

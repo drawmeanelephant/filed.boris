@@ -1,0 +1,102 @@
+---
+id: "reference/fref-0060-acmn"
+parent: "reference"
+title: "Assurance Coordination Session – Extracted Minutes"
+status: "archived"
+tags: ["minutes", "optics", "terminology", "coordination", "partial-record"]
+---
+
+**Case Number:** FREF-0060-ACMN  
+**Classification:** internal  
+**Date:** 2026-05-13  
+**Description:** Partial minutes from a coordination meeting between wording, scan, and metrics offices.  
+**Rot Affinity:** bureaucratic  
+**Slug:** reference/fref-0060-acmn  
+**Subject:** assurance wording, scan reinterpretation, dashboard alignment  
+**System Affiliation:** Assurance Vocabulary Desk, Scan Offices, Metrics Clearing  
+**Table Of Contents:** false  
+**Updated At:** 2026-06-13  
+**Version Label:** redacted-minutes  
+
+***
+
+
+
+# Attendance (partial)
+
+- One representative from a scan office, name smudged by toner.
+- One from a metrics clearing desk, present via pre-approved summary.
+- One from the wording desk, holding the template for these minutes.
+
+At least three other voices are implied by the transcript.
+Only two receive initials.
+
+---
+
+# Agenda Items (abridged)
+
+1. Harmonize description of “holes.”
+2. Determine whether orphans may continue to count as good news.
+3. Align incident phrasing with flatlined indicators.
+
+---
+
+# Discussion – Item 1: Holes
+
+> SCAN: “We write *hole* when we mean something is not there.”  
+> WORDING: “We write *curated absence* when we mean the same thing will not be fixed.”  
+
+A compromise phrase is recorded:
+
+> “A curated absence was observed where a prior object had been.  
+> No continuity disruption was noted.”
+
+No one specifies whether the object should return.
+The minutes do not ask.
+
+---
+
+# Discussion – Item 2: Orphans
+
+Metrics notes that unattended records:
+
+- are inexpensive to host,
+- and produce reassuring flat lines.
+
+Scan notes that unattended records:
+
+- are difficult to explain to new staff.
+
+Wording offers:
+
+> “Independent archival units, low-touch by design.”
+
+It is agreed that design intent cannot be disproved at this stage.
+The phrase is adopted.
+
+---
+
+# Discussion – Item 3: Flat Indicators
+
+A question is raised:
+
+> “What we call it when the graph is calm and the room is not?”
+
+The recorded answer:
+
+- “We call it *continuity*.  
+  The room will file its feelings elsewhere.”
+
+Minutes do not list who said this.
+The sentence appears in a different hand.
+
+---
+
+# Action Items (selected)
+
+- Scan offices to replace “hole”, “gap”, and “missing” with “curated absence” in summaries, effective next cycle.
+- Metrics clearing to add a note under stable bands: “No new language required.”
+- Wording desk to prepare a short guide on how to describe unease without raising severity.
+
+No due dates are recorded.
+The document is stamped as “timely.”
