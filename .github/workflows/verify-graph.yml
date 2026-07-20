@@ -1,0 +1,27 @@
+name: Verify Content Graph Integrity
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  verify-graph:
+    name: Validate Content Graph with Boris
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Make Boris binary executable
+        run: chmod +x ./bin/boris
+
+      - name: Run Content Graph Check
+        run: python3 .github/workflows/check-graph.py
