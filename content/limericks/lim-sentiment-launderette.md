@@ -1,0 +1,71 @@
+---
+id: "limericks/lim-sentiment-launderette"
+parent: "limericks"
+title: "Sentiment Launderette"
+tags: []
+---
+
+**Case Number:** LIM-MASCOT-SENTIMENT-LAUNDERETTE  
+**Parent Entry:** MASCOT-SENTIMENT-LAUNDERETTE  
+**Description:** Three hand-written limericks about the Sentiment Launderette, where your rage gets washed into dashboard-friendly bullshit.  
+**Updated At:** 2026-07-10  
+
+***
+
+> **Washing the Rage**  
+> You submitted a ticket of hate,
+> The Launderette changed it to "great".
+> They scrubbed out the "fuck",
+> And wished you good luck,
+> And left you alone to your fate.
+
+> **Affect Smoothing**  
+> The corners of anger are sheared,
+> Till the dashboard is totally cleared.
+> Your furious yell
+> Is locked in a cell,
+> And your actual feelings are steered.
+
+> **Dashboard Safe**  
+> The executives want to feel good,
+> So they launder the neighborhood.
+> Your tears and your sweat
+> Hit the launderette,
+> And come out as pure corporate wood.
+
+
+
+> **Sentiment Jam**  
+> The sentiment wash was a sham
+> The data was caught in a jam
+> We laundered the text
+> And wondered what’s next
+> And printed a useless exam
+
+> **Blank Tank**  
+> The washing machine is quite bare
+> It cleans out the data with care
+> But leaves it all blank
+> Like water in tank
+> And nobody seems to aware
+
+> **White Screen**  
+> The feelings are scrubbed from the byte
+> The terminal screen is all white
+> We fold up the file
+> And wait for a while
+> The archive is fading from sight
+
+> **Terrible Code**  
+> A feeling of dread in the queue
+> The launderette doesn't know who
+> Submitted the load
+> Of terrible code
+> And left it to slowly undo
+
+> **Error Sin**  
+> The sentiment died in the spin
+> The error was counted a sin
+> We dried out the log
+> And stepped in the fog
+> And threw all the data right in
