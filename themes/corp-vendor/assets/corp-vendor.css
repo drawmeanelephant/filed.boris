@@ -1,4 +1,5 @@
 /* corp-vendor.css — Enterprise Software Vendor Documentation Theme */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
 
 :root {
   /* Classic Enterprise MSDN/Oracle Palette with Modern Responsive Polish */
@@ -15,8 +16,8 @@
   --corp-success-green: #2e7d32;      /* SLA Uptime Green */
 
   /* Fonts */
-  --font-sans: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
-  --font-mono: "Consolas", "Courier New", "SFMono-Regular", Menlo, Monaco, monospace;
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "Consolas", "Courier New", "SFMono-Regular", Menlo, Monaco, monospace;
 }
 
 /* Base Styles & Resets */
@@ -346,12 +347,13 @@ body {
   font-weight: 500;
   border-radius: 3px;
   font-size: 12.5px;
-  transition: all 0.1s ease;
+  transition: background-color 0.15s ease, color 0.15s ease, padding-left 0.15s ease;
 }
 
 .site-nav a:hover {
   background-color: #f1f3f5;
   color: var(--corp-blue-primary);
+  padding-left: 16px;
 }
 
 /* Active current indicators */
