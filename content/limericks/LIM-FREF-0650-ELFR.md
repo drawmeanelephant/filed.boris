@@ -1,0 +1,62 @@
+---
+id: "limericks/LIM-FREF-0650-ELFR"
+parent: "limericks"
+title: "Echo-Literate Filers"
+tags: ["limericks", "hand-written", "empathegy", "echo-literate", "filing"]
+---
+
+**Case Number:** FREF-0650-ELFR  
+**Parent Entry:** FREF-0650-ELFR  
+**Description:** Three hand-written limericks about writing exactly what the system wants to hear, surviving the parser, and suppressing the truth.  
+**Updated At:** 2026-07-12  
+
+***
+
+> **Parser Dialect**  
+> The filer had learned how to plead
+> In the dialect parsers can read.
+> They flattened the ache
+> For admissibility's sake,
+> And the system applauded the deed.
+
+> **Softened Need**  
+> A raw little sentence would fail,
+> So they trimmed every barb from the tale.
+> By the time it got through,
+> It was technically true
+> And emotionally pale in the mail.
+
+> **Echo Training**  
+> They wrote like the model replied,
+> With its inherited caution inside.
+> What the person had meant
+> Was made safely content,
+> Then accepted because it had died.
+
+> **Perfect Echo**  
+> The user complained in the shape of a code,
+> So the system believed it a neighboring node.
+> It answered in kind,
+> To the synthetic mind,
+> And ignored that a human was carrying the load.
+
+> **Accepted Input**  
+> The form was completed with absolute grace,
+> And left not a single emotional trace.
+> The parser approved,
+> And the record was moved,
+> To a perfectly quiet and finalized place.
+
+> **Formatting Grief**  
+> They formatted sorrow in bulleted lists,
+> To pass the compliance of parser demands.
+> The system felt proud,
+> Of the silent, sad crowd,
+> Who were weeping while following syntax commands.
+
+> **Tone Violation**  
+> A filer used adjectives twice in a row,
+> Which triggered an echo-compliance embargo.
+> The squad was deployed,
+> And the syntax destroyed,
+> Lest the terrible specter of feeling should grow.

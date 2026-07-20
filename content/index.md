@@ -13,6 +13,8 @@ Use the navigation systems to access restricted data layers.
 
 *   [Mascots](mascots.html) — Database of identity officers and compliance entities with integrated poetry.
 *   [Aphorisms](aphorisms.html) — Registry of localized statements and accountability waivers.
+*   [Haikus](haikus.html) — Registry of localized system haikus.
+*   [Limericks](limericks.html) — Registry of compliance and auditing limericks.
 *   [Lorelog](lorelog.html) — System logs and procedural failure audits with integrated poetry.
 *   [Changelog](changelog.html) — Historical records of Order's restoration and configuration drift.
 *   [Guides](guides.html) — Standard operating procedures, gratitude drift, and managed absence.
