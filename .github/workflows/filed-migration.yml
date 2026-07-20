@@ -1,0 +1,51 @@
+name: Filed Migration Gate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+env:
+  BORIS_REPOSITORY: https://github.com/drawmeanelephant/boris.git
+  BORIS_COMMIT: f14ac7a90587aa5440513df10ad880259f7217a1
+  FILED_REPOSITORY: https://github.com/drawmeanelephant/filed.fyi.git
+  FILED_COMMIT: be386dd2000a2dfe853bf57b014af4b4e196e6fc
+
+jobs:
+  dogfood:
+    name: Reproduce Filed v0.8 dogfood
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout target repository
+        uses: actions/checkout@v4
+
+      - name: Set up pinned Zig
+        uses: mlugg/setup-zig@v2
+        with:
+          version: 0.16.0
+
+      - name: Obtain pinned Boris and Filed source
+        run: |
+          git clone --filter=blob:none "$BORIS_REPOSITORY" "$RUNNER_TEMP/boris"
+          git -C "$RUNNER_TEMP/boris" checkout --detach "$BORIS_COMMIT"
+          git clone --filter=blob:none "$FILED_REPOSITORY" "$RUNNER_TEMP/filed.fyi"
+          git -C "$RUNNER_TEMP/filed.fyi" checkout --detach "$FILED_COMMIT"
+
+      - name: Build pinned Boris and migration lab
+        working-directory: ${{ runner.temp }}/boris
+        env:
+          ZIG_GLOBAL_CACHE_DIR: ${{ runner.temp }}/zig-global-cache
+          ZIG_LOCAL_CACHE_DIR: ${{ runner.temp }}/zig-local-cache
+        run: |
+          zig build
+          zig build test
+          zig build --build-file tools/migration-lab/build.zig
+          zig build test --build-file tools/migration-lab/build.zig
+
+      - name: Run Filed migration gate
+        run: ./scripts/filed-migration-ci.sh "$RUNNER_TEMP/boris" "$RUNNER_TEMP/filed.fyi"

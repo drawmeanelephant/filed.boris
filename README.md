@@ -79,6 +79,24 @@ A delightful retro developer blog theme with minimalist, typography-focused pers
 
 ## 📐 Boris Content Graph Rules
 
+## CI and local migration gate
+
+The repository keeps the merged PR1 graph/theme gate in
+`.github/workflows/validate-graph.yml`. The migration-specific gate is the
+single additional workflow `.github/workflows/filed-migration.yml`; it builds
+Boris and the migration lab from pinned commits with Zig 0.16.0, validates the
+five-page Filed fixture, checks the eight emitted pages, proves deterministic
+repeated output, preserves the source checkout, and checks both the expected
+raw `EASSET` failure and an explicit asset-placement success. Generated output
+is temporary and is not committed.
+
+After building the pinned Boris checkout and migration lab, the exact local
+command used by CI is:
+
+```bash
+./scripts/filed-migration-ci.sh /path/to/boris /path/to/filed.fyi
+```
+
 If you add new content records, ensure they conform to Boris's compiler specifications:
 
 1. **Two-Level Hierarchy**:
