@@ -1,0 +1,69 @@
+---
+id: "limericks/LIM-LLG-0383-RAW"
+parent: "limericks"
+title: "LLG-0383-RAW"
+tags: []
+---
+
+**Case Number:** LLG-0383-RAW  
+**Parent Entry:** LLG-0383-RAW  
+**Description:** Five hand-written limericks about accreditation disputes, un-witnessed witnesses, and legacy seals.  
+**Updated At:** 2026-07-12  
+
+***
+
+> **Unsupervised Stamping**  
+> They **stamped** the accreditation with pride,
+> But the **proof** of it suddenly died.
+> With no one to show
+> Where the **paperwork** goes,
+> They just **jerked themselves off** on the side.
+
+> **Form AR-Null**  
+> The **Chamber** declined to suspend,
+> Since the **records** would break in the end.
+> So they added a **Null**
+> To a ledger so dull,
+> And decided to simply **pretend**.
+
+> **Botched Cherry**  
+> A **proxy** inspected the mark,
+> And found it was left in the dark.
+> "You weren't even **watched**
+> When your **cherry** was botched!"
+> He yelled as he bit like a shark.
+
+> **Circle of Trust**  
+> The **witness** who witnessed the act,
+> Was lacking the critical fact.
+> With a **stamp** on their ass
+> And no real way to pass,
+> They just **circle-jerked** right in the tract.
+
+> **The Terminal Ghost**  
+> An auditor signed from the shell,
+> In a language that nobody could spell.
+> The terminal was dark,
+> With no power or spark,
+> But the signature's valid, as well.
+
+> **Ink of the Past**  
+> They dipped into ink that was old,
+> From a bureau whose story was told.
+> The stamp was quite wet,
+> On a rule not met yet,
+> And the legacy started to hold.
+
+> **Accredited Air**  
+> They earned a certificate rare,
+> For managing absolute air.
+> The skill was long gone,
+> But the seal carried on,
+> As though expertise still was there.
+
+> **The Flawed Witness**  
+> A **seal** was applied to a sheet,
+> Making the **audit** complete.
+> But the **witness** who saw
+> Had a terrible **flaw**:
+> Their *own witness* was out on the street.
