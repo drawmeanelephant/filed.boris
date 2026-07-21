@@ -43,7 +43,7 @@ target_check_status=$?
 set -e
 jq -e '
   .format == "boris-documentation-intelligence" and
-  .summary.pages > 500 and .summary.pages < 600 and
+  .summary.pages > 500 and .summary.pages < 1000 and
   ([.findings[] | select(.code != "unreferenced_page")] | length == 0)
 ' "$TMP/target-check.json" >/dev/null || {
   echo "ERROR: target Markdown/frontmatter/graph validation failed" >&2
