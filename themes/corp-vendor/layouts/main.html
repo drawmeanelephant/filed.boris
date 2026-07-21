@@ -1,70 +1,38 @@
 <!doctype html>
-<html lang="en" data-theme="corp-vendor" data-layout="main">
+<html lang="en" data-theme="archive-light" data-layout="main">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{title}} — BORIS Enterprise Documentation</title>
+  <title>{{title}} — Filed &amp; Forgotten Archive</title>
   <link rel="stylesheet" href="{{asset-url assets/corp-vendor.css}}">
 </head>
 <body>
-  <!-- Global Corporate Alert Banner -->
-  <div class="enterprise-alert-bar" role="alert">
-    <span class="badge badge--danger">RESTRICTED</span>
-    <span class="text">CONFIDENTIAL // ENTERPRISE DATA PORTAL // SYSTEM AUDIT LEVEL IV // SLA LEVEL: PLATINUM</span>
-  </div>
-
   <a class="skip-link" href="#main-content">Skip to content</a>
 
   <div class="container">
-    <!-- Corporate Header -->
     <header class="site-header" role="banner">
       <div class="header-inner">
         <div class="logo-area">
-          <span class="logo-icon">🏢</span>
+          <span class="logo-icon">📁</span>
           <div>
-            <h1 class="site-title"><a href="index.html">BORIS <span class="logo-sub">Enterprise Suite</span></a></h1>
-            <p class="site-tagline">Central Information Index — v0.6.1-PRO</p>
-          </div>
-        </div>
-        <div class="header-controls">
-          <div class="sys-status">
-            <span class="indicator indicator--active"></span>
-            <span class="sys-text">SLA ACTIVE: 99.998% UPTIME</span>
-          </div>
-          <div class="version-select">
-            <select aria-label="Documentation Version">
-              <option selected>v0.6.1-PRO (LTS)</option>
-              <option>v0.6.0-BETA</option>
-              <option>v0.5.4-DEV</option>
-            </select>
+            <h1 class="site-title"><a href="index.html">Filed &amp; Forgotten Archive</a></h1>
+            <p class="site-tagline">Central Knowledge Registry</p>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- Sub-header Breadcrumb Bar -->
     <div class="action-bar">
       <nav class="breadcrumb-container" aria-label="Breadcrumb">
         {{breadcrumb}}
       </nav>
-      <div class="quick-actions">
-        <button onclick="window.print()" class="action-btn">🖨️ Print Record</button>
-        <span class="action-separator">|</span>
-        <span class="sla-badge">SLA: PLATINUM</span>
-      </div>
     </div>
 
-    <!-- Main Grid Layout -->
     <div class="layout-wrapper">
-      <!-- Left Navigation Drawer -->
-      <aside class="site-sidebar" aria-label="Sidebar Navigation">
+      <aside class="site-sidebar" aria-label="Archive Directory">
         <div class="sidebar-sticky">
-          <div class="search-box">
-            <input type="text" placeholder="Filter index registry..." disabled aria-label="Filter Registry">
-            <span class="search-icon">🔍</span>
-          </div>
           <div class="sidebar-module">
-            <h3 class="sidebar-title">Index Registry</h3>
+            <h3 class="sidebar-title">Archive Directory</h3>
             <nav class="site-nav" aria-label="Site Navigation">
               {{nav}}
             </nav>
@@ -72,45 +40,27 @@
         </div>
       </aside>
 
-      <!-- Main Content Area -->
       <main id="main-content" class="site-main" tabindex="-1">
-        <div class="document-frame">
-          <div class="document-header">
-            <div class="doc-meta-badge">
-              <span class="doc-id-label">ENT-REG-ID:</span>
-              <span class="doc-id-value">STABLE-RELEASE</span>
-            </div>
-            <h2 class="document-title">SYSTEM PROFILE REGISTRY RECORD</h2>
-          </div>
-
-          <!-- Metadata Properties Card -->
+        <article class="document-frame">
           <div class="metadata-section">
             {{metadata}}
           </div>
 
-          <!-- Table of Contents (On This Page) -->
           <div class="toc-section">
-            <div class="toc-header">
-              <span class="toc-icon">📋</span>
-              <span class="toc-title">ON THIS PAGE</span>
-            </div>
             {{toc}}
           </div>
 
-          <!-- Document Prose Content -->
-          <article class="entry-content prose">
+          <div class="entry-content prose">
             {{content}}
-          </article>
+          </div>
 
-          <!-- Directory Children Listing (if applicable) -->
           <div class="children-section">
             {{children}}
           </div>
-        </div>
+        </article>
       </main>
     </div>
 
-    <!-- Legal Compliance Footer -->
     <footer class="site-footer" role="contentinfo">
       {{footer}}
     </footer>
