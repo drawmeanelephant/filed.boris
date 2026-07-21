@@ -129,9 +129,9 @@ All negotiations are logged as precedent.
 
 Current state: officially balanced, experientially lopsided.  
 Next review cycle: whenever someone files a case that breaks the pattern instead of elegantly naming it.
-:::note[Archivist's Addendum]
+<Aside kind="note">
 The information here is accurate, but completely useless.
-:::
+</Aside>
 
 A paperclip bent out of shape,
 Required a yard of red tape.

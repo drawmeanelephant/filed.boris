@@ -134,9 +134,9 @@ MAP doctrine later reclassified these conditions as a subtype of CAAR: the subsy
 Current state: politely unresolved  
 Next review cycle: whenever someone notices and apologizes for asking.
 
-:::note[Archivist's Addendum]
+<Aside kind="note">
 This document has been known to induce mild lethargy in compliance officers.
-:::
+</Aside>
 
 A fly buzzed around in the room,
 Foretelling a terrible doom.

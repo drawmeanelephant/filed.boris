@@ -91,9 +91,9 @@ Internal guidance reads:
 
 No enforcement mechanism ensures that the second clause is honored.
 
-:::note[Archivist's Addendum]
+<Aside kind="note">
 This file is a memorial to a system feature that never shipped.
-:::
+</Aside>
 
 A typo appeared in a text,
 The elders were deeply perplexed.

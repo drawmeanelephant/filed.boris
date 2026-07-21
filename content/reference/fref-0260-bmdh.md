@@ -254,9 +254,9 @@ It does:
 - choose what counts as “present,” “support,” and “service,”
 - decide which shortages may be filed as “dignified quiet,”
 - 
-:::note[Archivist's Addendum]
+<Aside kind="note">
 The original author of this document has been erased from the system registry.
-:::
+</Aside>
 
 The printer is flashing a light.
 It has been doing this all night.

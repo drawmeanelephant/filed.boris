@@ -117,9 +117,9 @@ Internal guidance for readers states:
 No removal procedure is defined.  
 Once applied, optics persist in snapshots and exports, even when underlying interpretations change.
 
-:::note[Archivist's Addendum]
+<Aside kind="note">
 The parameters defined herein are no longer operationally supported, yet continue to consume administrative cycles.
-:::
+</Aside>
 
 A staple was bent at the base,
 Disrupting the temporal space.

@@ -80,9 +80,9 @@ Internal reference calls it:
 
 Attendance is optional.  
 The minutes are permanent.
-:::note[Archivist's Addendum]
+<Aside kind="note">
 WARNING: Reading this document constitutes acceptance of unstated liabilities.
-:::
+</Aside>
 
 The manual sits on the shelf.
 It mostly refers to itself.

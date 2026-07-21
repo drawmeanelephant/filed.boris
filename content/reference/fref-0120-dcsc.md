@@ -88,9 +88,9 @@ Tooltip suggestion:
 If a class name begins to sound tired,  
 do not sharpen it.  
 Retire it quietly and invent a new success.
-:::note[Archivist's Addendum]
+<Aside kind="note">
 Index corruption suspected. The content aligns with an unrecorded incident involving [027.comrade-kernelov](/mascots/comrade-kernelov).
-:::
+</Aside>
 
 A comma was used in a draft,
 A crisis was felt fore and aft.

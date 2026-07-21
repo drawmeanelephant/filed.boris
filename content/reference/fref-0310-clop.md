@@ -237,9 +237,9 @@ This archive tells you, quietly:
 - You have been filed among things that continued after anyone needed them.
 
 The rest you will learn by mis-shelving yourself a few times.
-:::note[Archivist's Addendum]
+<Aside kind="note">
 Re-classified as 'Durable Aspect'. It is broken, and it will stay broken.
-:::
+</Aside>
 
 A pencil rolled off of the desk,
 Creating a risk quite grotesque.

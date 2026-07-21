@@ -199,9 +199,9 @@ Not everything gets stabilized.
 
 (margin: Bricky notes the system does not stabilize instability; it stabilizes the appearance of managing instability)
 
-:::note[Archivist's Addendum]
+<Aside kind="note">
 Awaiting translation from an obsolete bureaucratic dialect.
-:::
+</Aside>
 
 The carpet is slightly worn down.
 The color is mostly a brown.

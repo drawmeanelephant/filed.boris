@@ -420,9 +420,9 @@ Optimize for:
 All systems will eventually contradict themselves.
 File accordingly.
 
-:::note[Archivist's Addendum]
+<Aside kind="note">
 Subject to [FREF-0030-AVSG](/reference/fref-0030-avsg) realignment. Do not quote.
-:::
+</Aside>
 
 A chair squeaked a bit on a turn,
 We ordered the sector to burn.
