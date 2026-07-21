@@ -1,4 +1,4 @@
-name: Filed Migration Gate
+name: CI
 
 on:
   push:
@@ -16,6 +16,66 @@ env:
   FILED_COMMIT: be386dd2000a2dfe853bf57b014af4b4e196e6fc
 
 jobs:
+  validate:
+    name: Run Content Graph Validation
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up pinned Zig
+        uses: mlugg/setup-zig@v2
+        with:
+          version: 0.16.0
+
+      - name: Obtain pinned Boris source
+        run: |
+          git clone --filter=blob:none "$BORIS_REPOSITORY" "$RUNNER_TEMP/boris"
+          git -C "$RUNNER_TEMP/boris" checkout --detach "$BORIS_COMMIT"
+
+      - name: Build pinned Boris
+        working-directory: ${{ runner.temp }}/boris
+        env:
+          ZIG_GLOBAL_CACHE_DIR: ${{ runner.temp }}/zig-global-cache
+          ZIG_LOCAL_CACHE_DIR: ${{ runner.temp }}/zig-local-cache
+        run: |
+          zig build
+          mkdir -p ${{ github.workspace }}/bin
+          cp zig-out/bin/boris ${{ github.workspace }}/bin/boris
+
+      - name: Set permissions
+        run: |
+          chmod +x bin/boris
+          chmod +x bin/validate_graph.sh
+
+      - name: Validate graph & compile themes
+        run: ./bin/validate_graph.sh
+
+      - name: Upload Corp-Vendor build artifact
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-corp
+          path: dist/corp/
+          retention-days: 7
+
+      - name: Upload Google Material build artifact
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-material
+          path: dist/material/
+          retention-days: 7
+
+      - name: Upload Cozy-Typepad build artifact
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-cozy
+          path: dist/cozy/
+          retention-days: 7
+
   dogfood:
     name: Reproduce Filed v0.8 dogfood
     runs-on: ubuntu-24.04
@@ -60,3 +120,10 @@ jobs:
 
       - name: Run Filed migration gate
         run: ./scripts/filed-migration-ci.sh "$RUNNER_TEMP/boris" "$RUNNER_TEMP/filed.fyi"
+
+  ci:
+    name: ci
+    needs: [validate, dogfood]
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "All CI checks passed!"
