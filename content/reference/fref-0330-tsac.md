@@ -172,9 +172,9 @@ Instead, it encourages supervisors to note whether clerks:
 - remember that tidy narratives can be hazardous.
 
 Such notes may be kept in local files and forgotten there, as is customary.
-:::note[Archivist's Addendum]
+<Aside kind="note">
 The grammar in this file is considered a vector for systemic decay.
-:::
+</Aside>
 
 The coffee machine made a hiss,
 A terrible, dangerous miss.

@@ -108,9 +108,9 @@ Ink dried.
 Entity registered.
 File closed.
 
-:::note[Archivist's Addendum]
+<Aside kind="note">
 This directive is currently experiencing interpretive drift. Local practices have superseded its authority, but its preservation remains mandatory under continuous assurance policies.
-:::
+</Aside>
 
 The desk lamp was moved to the right,
 Which triggered an audit by night.

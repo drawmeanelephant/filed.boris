@@ -89,9 +89,9 @@ and forward a copy to the Over‑Coherence Vault.
 
 The Annex considers this a sign that you are paying attention,
 which is all it can reasonably ask.
-:::note[Archivist's Addendum]
+<Aside kind="note">
 Linked to an unresolved [map-inc-14](/lorelog/map-inc-14) containment breach.
-:::
+</Aside>
 
 The sign on the door has been changed.
 The desks have been slightly rearranged.
