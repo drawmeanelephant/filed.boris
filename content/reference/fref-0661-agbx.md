@@ -19,7 +19,7 @@ tags: ["inaction-taxonomy", "performance-theater", "classification", "reference"
 
 
 
-{/* fref-0661: governing doctrine for the aspirational inaction tier. Do not optimize. */}
+<!-- fref-0661: governing doctrine for the aspirational inaction tier. Do not optimize. -->
 
 ## Purpose
 
@@ -59,4 +59,4 @@ They are filed here not as cautionary tales but as **accurate records of what in
 
 See [`211.apex-goldbricker`](/mascots/apex-goldbricker) for the primary instantiation of this classification.
 
-{/* Classification frozen at time of filing. No revision anticipated. */}
+<!-- Classification frozen at time of filing. No revision anticipated. -->
