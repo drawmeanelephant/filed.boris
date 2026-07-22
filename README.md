@@ -48,6 +48,26 @@ filed.boris/
 
 ## ⚡ Setup & Compilation
 
+### Export the publishing bundle
+
+When dogfooding the archive with ChatGPT, Perplexity, or a local retrieval
+tool, use the single publishing export. It writes the graph IR, RAG corpus,
+context bundle, and (when supported by the Boris build) `llms.txt` under the
+ignored `publish/` directory:
+
+```bash
+./scripts/filed-publish.sh
+```
+
+If Filed does not have `./bin/boris`, point the command at a built Boris binary:
+
+```bash
+BORIS_BIN=/path/to/boris ./scripts/filed-publish.sh
+```
+
+Review `publish/README.txt` before uploading `context/` or `rag/`; those are
+source-derived artifacts and are not automatically public-safe.
+
 ### 1. Run Graph Integrity Check
 Boris enforces a strict mathematical content structure. Validate that there are no broken links, incorrect parent pointers, or invalid frontmatter structures before deploying:
 ```bash

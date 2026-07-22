@@ -2,6 +2,7 @@
 dist/
 out/
 outputs/
+publish/
 
 # OS-specific files
 .DS_Store
