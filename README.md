@@ -68,6 +68,21 @@ BORIS_BIN=/path/to/boris ./scripts/filed-publish.sh
 Review `publish/README.txt` before uploading `context/` or `rag/`; those are
 source-derived artifacts and are not automatically public-safe.
 
+### Build Boris Afterparty
+
+While Boris Afterparty is changing rapidly, build and dogfood the active Boris
+worktree with one command:
+
+```bash
+./scripts/build-boris-afterparty.sh
+```
+
+The routine verifies the expected Boris branch, records the commit and dirty
+state, builds the binary in place, smoke-tests scoped RAG/context exports, and
+then regenerates `publish/`. It never fetches, checks out, or moves the Boris
+worktree. Override `BORIS_ROOT`, `BORIS_BRANCH`, or `SPLIT_SIZE` when the local
+Afterparty setup changes.
+
 ### 1. Run Graph Integrity Check
 Boris enforces a strict mathematical content structure. Validate that there are no broken links, incorrect parent pointers, or invalid frontmatter structures before deploying:
 ```bash
